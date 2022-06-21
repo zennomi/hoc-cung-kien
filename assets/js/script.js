@@ -211,8 +211,8 @@
                 slidesToScroll: 1,
                 infinite: true,
                 speed: 400,
-                autoplay: false,
-                autoplaySpeed: 5000,
+                autoplay: true,
+                autoplaySpeed: 2000,
                 prevArrow: $('.work-prev'),
                 nextArrow: $('.work-next'),
                 responsive: [
