@@ -2992,7 +2992,7 @@ h1, h2, h3, h4, h5, h6, .bg-text, .coach-filter li, .newsletter-radios {
         padding-top: 0;
         padding-bottom: 0; } }
   .main-header.fixed-header .mobile-logo {
-    margin-top: 0; }
+    margin-top: 10px; }
 
 /* Header Top */
 .header-top {
@@ -4265,7 +4265,9 @@ h1, h2, h3, h4, h5, h6, .bg-text, .coach-filter li, .newsletter-radios {
   margin-bottom: 30px; }
   @media only screen and (max-width: 480px) {
     .feature-item {
-      display: block; } }
+      display: block; 
+      text-align: center;
+    } }
   .feature-item .image {
     -webkit-box-flex: 0;
     -ms-flex: none;
@@ -4279,7 +4281,10 @@ h1, h2, h3, h4, h5, h6, .bg-text, .coach-filter li, .newsletter-radios {
     line-height: 100px; }
     @media only screen and (max-width: 480px) {
       .feature-item .image {
-        margin-bottom: 15px; } }
+        margin-bottom: 15px; 
+        margin-right: auto;
+        margin-left: auto;
+      } }
   .feature-item .icon {
     -webkit-box-flex: 0;
     -ms-flex: none;
